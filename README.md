@@ -23,38 +23,26 @@ FOMC 텍스트와 미국 국채 금리 데이터를 활용해 금리시장 반�
 
 - Python
 - Scikit-learn
+- BERT, FinBERT, TF-IDF, LDA, PCA, K-means, GMM
 - PyTorch
 - Hugging Face Transformers
 - Next.js
+- React
 
 ---
 
-## Repository Structure
-
-```text
-tdm-term-project/
-├── README.md
-├── 01_tone_index_dictionary.ipynb
-├── 02_policy_surprise_modeling.ipynb
-├── 03_xai_analysis.ipynb
-├── 04_visualization.ipynb
-├── TDM_Final_Presentation.pdf
-└── TDM_Proposal_Presentation.pdf
-```
-
----
 
 ## File Description
 
+> 전체 프로젝트 결과는 **[TDM_Final_Presentation.pdf](./TDM_Final_Presentation.pdf)** 에서 확인할 수 있습니다.
 | File | Description |
 | --- | --- |
 | `01_tone_index_dictionary.ipynb` | Hawkish / Dovish 키워드 사전 구축 및 Tone Index 계산 |
 | `02_policy_surprise_modeling.ipynb` | 금리커브 PCA, 정책 서프라이즈 라벨링, 텍스트 기반 분류 모델링 |
 | `03_xai_analysis.ipynb` | 모델 해석 및 주요 Hawkish / Dovish 키워드 분석 |
 | `04_visualization.ipynb` | 분석 결과 시각화 및 발표자료용 그래프 생성 |
-| `TDM_Final_Presentation.pdf` | 최종 발표자료 및 전체 분석 결과 |
-| `TDM_Proposal_Presentation.pdf` | 프로젝트 주제 제안 발표자료 |
-
+| **[`TDM_Final_Presentation.pdf`](./TDM_Final_Presentation.pdf)** | **최종 발표자료입니다. 프로젝트의 전체 분석 과정, 주요 결과, 대시보드를 확인할 수 있습니다.** |
+| [`TDM_Proposal_Presentation.pdf`](./TDM_Proposal_Presentation.pdf) | 프로젝트 주제 제안 발표자료 |
 ---
 
 ## Analysis Pipeline
